@@ -1,0 +1,65 @@
+ /* Styling the body element
+        like body color and margin */
+         
+        body {
+            background-color: #000000;
+            margin: 10%;
+            color: wheat;
+            font-size: large;
+            border-style: solid;
+            border-color:plum;
+            padding: 3ch;
+        }
+ 
+        /* Styling the Title and giving
+        shadow to the title */
+        title {
+            text-align: center;
+            text-shadow: 5px 5px 10px white;
+            font-size: 20vh;
+        }
+ 
+        /* Setting width and display
+        type of image */
+        img {
+            display: inline-block ;
+            width: 100%;
+            animation: alternate-reverse;
+            animation-play-state: running;
+        }
+        p{
+            font-size: larger;
+        }
+ 
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 17px;
+            font-family: Gill Sans;
+            color:rgb(255, 255, 255);
+        }
+ 
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: wheat;
+            box-shadow: 20px 20px 20px #f584ce;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+ 
+        /* Styling the title of the content */
+        h1 {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 10px rgb(40, 39, 39);
+        }
+ 
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoratio: none;
+            color: purple;
+        }
